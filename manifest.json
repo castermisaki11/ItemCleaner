@@ -1,12 +1,12 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Item Cleaner",
-    "description": "ลบไอเทมบนพื้นอัตโนมัติ พร้อมนับถอยหลังบน action bar",
+    "name": "ระบบล้างไอเทมอัตโนมัติ",
+    "description": "ลบไอเทมบนพื้นทันทีเมื่อเกินเกณฑ์ พร้อมนับถอยหลังเตือนก่อนล้างทั้งเซิร์ฟเวอร์\nScript By Prakan",
     "uuid": "a8076b91-f941-4b9b-9bb4-ff545159cd38",
     "version": [
       1,
-      0,
+      1,
       0
     ],
     "min_engine_version": [
@@ -32,6 +32,15 @@
     {
       "module_name": "@minecraft/server",
       "version": "1.15.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.2.0"
     }
-  ]
+  ],
+  "metadata": {
+    "authors": [
+      "Prakan"
+    ]
+  }
 }

@@ -1,0 +1,37 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Item Cleaner",
+    "description": "ลบไอเทมบนพื้นอัตโนมัติ พร้อมนับถอยหลังบน action bar",
+    "uuid": "a8076b91-f941-4b9b-9bb4-ff545159cd38",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "e93e3766-e122-4e92-b8cb-48edc72f185c",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.15.0"
+    }
+  ]
+}

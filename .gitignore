@@ -1,0 +1,21 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+._*
+*.swp
+*~
+
+# Logs & temp
+*.log
+*.tmp
+node_modules/
+
+# Pack output
+dist/
+*.mcaddon
+*.mcpack
